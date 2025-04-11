@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Diccionario JJFR 
 
-## Getting Started
+Aplicación web de diccionario desarrollada con Next.js, TypeScript, Tailwind CSS y Redux Toolkit. Permite buscar el significado de palabras, cambiar el tipo de fuente, activar el modo oscuro, escuchar la pronunciación y visualizar un historial de búsquedas.
 
-First, run the development server:
+##  Demo
+
+Puedes probar la aplicación desplegada en Vercel en el siguiente enlace:  
+ [https://diccionario-jjf.vercel.app](https://diccionario-jjf.vercel.app)
+
+##  Características
+
+-  Búsqueda de palabras con definición, categoría gramatical y ejemplos.
+-  Reproducción de audio de la pronunciación.
+-  Modo claro / oscuro con persistencia.
+-  Selector de fuente para mejorar la lectura.
+-  Historial de palabras buscadas, como tambien el borrar individual, o borrar todo el hisotrial.
+-  Almacenamiento persistente en `localStorage`.
+-  Estado global con Redux Toolkit.
+-  Diseño responsivo para móvil, tablet y escritorio.
+
+##  Tecnologías usadas
+
+- [Next.js](https://nextjs.org/) 
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [Jest](https://jestjs.io/) + [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+
+##  Instalación local
+
+Clona el repositorio e instala las dependencias:
 
 ```bash
+git clone https://github.com/juanFajardoR/diccionario-jjf.git
+cd diccionario-jjf
+npm install
+
+## Ejecucion de la app
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Ejecucion del testing
+npm run test
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Desarrollado por =  Juan Jose Fajardo Rodríguez 
